@@ -90,14 +90,19 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+blockquote p {
+    font-size: 1.5rem;
+    font-style: italic;
 }
+
+.texture-paper::before {
+    background: url("img/texture-paper.webp");
+    background-size: 280px 280px;
+} 
 
 .b-parallax {
     background-attachment: fixed;
-}
+} 
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
@@ -133,7 +138,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .d-bloc .a-btn:hover,
@@ -284,7 +289,11 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
+    line-height: 1.2;
     font-size: 32px;
+    font-weight: 900;
+    color: #fcf9f7!important;
+
 }
 
 .navbar {
@@ -340,6 +349,7 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    margin-right: auto;
 }
 
 .navbar-toggle:hover {
@@ -699,6 +709,10 @@ p {
     font-weight: 700;
 }
 
+.cta-text {
+    font-size: 24px;
+}
+
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -753,7 +767,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.9);
+    border-radius: 5px;
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +790,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -793,7 +808,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine {
@@ -809,20 +824,20 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/*.bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+}*/
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -946,7 +961,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: #FFFFFF;
     }
     .hero {
         padding: 50px 0;
@@ -1025,6 +1040,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
