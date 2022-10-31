@@ -691,7 +691,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width:800px;
     margin: auto auto auto auto;
 }
 
@@ -840,6 +840,10 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
+aside {
+    margin: 15px 0 0 15px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -863,39 +867,31 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
-
     .cta-text {
         font-size: 28px;
     }
-
 }
 
-@media only screen and (max-device-width: 767px) {
-
+@media only screen and (max-width: 767px) {
     h2 {
         font-size: 1.9rem;
     }
-
-
-    p {
+    p, label {
         font-size: 1.5rem;
     }
-
 }
 
-@media only screen and (min-device-width: 768px) {
-
-    p {
+@media only screen and (min-width: 768px) {
+    p, label {
         font-size: 2rem;
     }
-
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -907,28 +903,33 @@ h4 {
     .container {
         width: 100%;
     }
+
     .b-parallax {
         background-attachment: scroll;
     }
+
     .page-container,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
     }
+
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
+
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
