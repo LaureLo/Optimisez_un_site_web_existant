@@ -95,10 +95,10 @@ blockquote p {
     font-style: italic;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
-} 
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -687,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -707,10 +707,6 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-}
-
-.cta-text {
-    font-size: 24px;
 }
 
 .social {
@@ -793,6 +789,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.cta-text {
+    background-color: #F3976C;
+}
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -868,13 +867,41 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+
+    .cta-text {
+        font-size: 28px;
+    }
+
+}
+
+@media only screen and (max-device-width: 767px) {
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+
+    p {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) {
+
+    p {
+        font-size: 2rem;
+    }
+
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
+
 }
+
 
 @media (max-width: 991px) {
     .container {
