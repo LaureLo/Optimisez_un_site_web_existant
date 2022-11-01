@@ -809,6 +809,8 @@ h4 {
 .cta-text {
     background-color: #F3976C;
     color: #0f0f0f!important;
+    border-radius: 10px;
+    padding: 15px 0;
 }
 
 .btn-atomic-tangerine {
@@ -1109,5 +1111,9 @@ aside {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    #bloc-1-hero h1 {
+        font-size: 2.6rem;
     }
 }
