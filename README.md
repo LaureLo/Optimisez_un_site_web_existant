@@ -14,12 +14,12 @@ Assurer l'accessibilité d'un site web.
 
 OBJECTIF : 
 
-Améliorer le référencement naturel (SEO) du site de l'agence de web design lyonnaise La Panthère.
+Améliorer le référencement naturel (SEO) du site de l'entreprise de webdesign lyonnaise La Panthère.
 
 LIVRABLES :
 
 Un rapport d’analyse SEO du site avec 10 recommandations minimum.
 
-Site avec les améliorations et optimisations.
+Code source du site avec les améliorations et optimisations.
 
 Un rapport d’optimisation comprenant une comparaison des résultats (y compris de la vitesse de chargement et l’accessibilité).
