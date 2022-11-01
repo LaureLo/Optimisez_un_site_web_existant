@@ -796,6 +796,12 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.text-title {
+    background-color: #F3976C;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
 .tc-black {
     color: #141313!important;
 }
